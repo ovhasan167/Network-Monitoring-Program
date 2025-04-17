@@ -6,7 +6,7 @@ from dotenv import load_dotenv # type: ignore
 import os
 
 load_dotenv()
-slack_webhook_url = os.getenv("https://***REMOVED***/services/T08L30MHSMT/B08NMS0RCUB/dKgUfKPVw2CeidRUroTorkpP")
+slack_webhook_url = os.getenv("Webhook")
 
 def send_slack_alert(message):
     payload = {"text": message}
